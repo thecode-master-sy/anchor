@@ -14,6 +14,9 @@ dependencies:
   expo:
     specifier: ~51.0.28
     version: 51.0.32(@babel/core@7.25.2)(@babel/preset-env@7.25.4)
+  expo-av:
+    specifier: ~14.0.7
+    version: 14.0.7(expo@51.0.32)
   expo-constants:
     specifier: ~16.0.2
     version: 16.0.2(expo@51.0.32)
@@ -65,6 +68,9 @@ dependencies:
   react-native-screens:
     specifier: 3.31.1
     version: 3.31.1(react-native@0.74.5)(react@18.2.0)
+  react-native-sound:
+    specifier: ^0.11.2
+    version: 0.11.2(react-native@0.74.5)
   react-native-web:
     specifier: ~0.19.10
     version: 0.19.12(react-dom@18.2.0)(react@18.2.0)
@@ -4708,6 +4714,14 @@ packages:
       - supports-color
     dev: false
 
+  /expo-av@14.0.7(expo@51.0.32):
+    resolution: {integrity: sha512-FvKZxyy+2/qcCmp+e1GTK3s4zH8ZO1RfjpqNxh7ARlS1oH8HPtk1AyZAMo52tHz3yQ3UIqxQ2YbI9CFb4065lA==}
+    peerDependencies:
+      expo: '*'
+    dependencies:
+      expo: 51.0.32(@babel/core@7.25.2)(@babel/preset-env@7.25.4)
+    dev: false
+
   /expo-constants@16.0.2(expo@51.0.32):
     resolution: {integrity: sha512-9tNY3OVO0jfiMzl7ngb6IOyR5VFzNoN5OOazUWoeGfmMqVB5kltTemRvKraK9JRbBKIw+SOYLEmF0sEqgFZ6OQ==}
     peerDependencies:
@@ -8021,6 +8035,14 @@ packages:
       react-freeze: 1.0.4(react@18.2.0)
       react-native: 0.74.5(@babel/core@7.25.2)(@babel/preset-env@7.25.4)(@types/react@18.2.79)(react@18.2.0)
       warn-once: 0.1.1
+    dev: false
+
+  /react-native-sound@0.11.2(react-native@0.74.5):
+    resolution: {integrity: sha512-LmGc8lgOK3qecYMVQpyHvww/C+wgT6sWeMpVbOe4NCRGC2yKd4fo4U0KBUo9PO7AqKESO3I/2GZg1/C0+bwiiA==}
+    peerDependencies:
+      react-native: '>=0.8.0'
+    dependencies:
+      react-native: 0.74.5(@babel/core@7.25.2)(@babel/preset-env@7.25.4)(@types/react@18.2.79)(react@18.2.0)
     dev: false
 
   /react-native-web@0.19.12(react-dom@18.2.0)(react@18.2.0):
